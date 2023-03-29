@@ -4,10 +4,10 @@
 
 ## Welcome! 👋
 
-# This is my results-summary-component-main challenge solution from frintend mentor
-# I learned a lot by solving this challenge because I was trained on the linear-gradient property and Flex box layout 
+This is my results-summary-component-main challenge solution from frintend mentor
+I learned a lot by solving this challenge because I was trained on the linear-gradient property and Flex box layout 
 
-# And i made it responsive :D 
+And i made it responsive :D 
 
 ## thanks! 👋
 
