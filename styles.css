@@ -1,0 +1,139 @@
+body {
+    background-color: #ffffff;
+    font-size : 18px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Karla', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    width: 60%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 70vh;
+    display: flex;
+    box-shadow: 0px 10px 40px -10px rgba(0,64,128,0.2);    border-radius: 25px;
+    overflow: hidden;
+}
+.left{
+    background-image: linear-gradient(to bottom, #7857ff , #2e2be9);
+    border-radius: 25px;
+    text-align: center;
+    color: #ffffff;
+    flex-basis: 50%;
+
+}
+.left h2 {
+    color: #c8c7ff;
+    padding-top: 37px;
+    margin-bottom: -15px;
+
+}
+h1 {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.para {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #c8c7ff;
+    padding-bottom: 10px;
+    padding-top: 15px;
+
+}
+.circle {
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #4e21ca , #2421ca, transparent);
+    width: 234px;
+    height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.resultD {
+    margin-top: 50px;
+    padding: 60px;
+}
+.result{
+    font-weight: 800;
+    font-size: 70px;
+    margin: 0;
+}
+.of {
+    color: #c8c7ff;
+}
+.right {
+    flex-basis: 50%;
+    text-align: center;
+    color: #303b5a;
+}
+.res{
+    color: #303b5a;
+}
+.right h2 , .leftP{
+    text-align: start;
+
+}
+.right h2{
+    padding-left: 10px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.gradients {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+
+}
+.primary {
+    display: flex;
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 15px;
+}
+.leftP {
+    flex-grow: 1;
+    margin-left: 5px;
+}
+button {
+    padding: 13px;
+    width: 83%;
+    background-color: #303b5a;
+    border-radius: 25px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    border: none;
+    color: #ffffff;
+}
+.reaction {
+    color : #ff5757;
+    background-color: #ff575714;
+}
+.memory {
+    color: #ffb01f;
+    background-color: #ffb11f14;
+}
+.verbal {
+    color: #00bd91;
+    background-color: #00bd9114;
+}
+.visual {
+    color: #1125d4;
+    background-color: #1124d414;
+}
+
+@media (max-width : 660px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+        margin-top: -20px;
+
+    }
+}
